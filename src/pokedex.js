@@ -1,13 +1,15 @@
-import { connectTo, Store } from '@aurelia/store-v1'
-import { inject } from 'aurelia';
-import { gqlGrabAction } from './state/actions'
+// import { connectTo, dispatchify } from '@aurelia/store-v1';
+// import { gqlGrabAction } from './store/actions';
+//import { map } from 'rxjs/operators';
 
-
-@inject(Store)
-@connectTo()
+// @connectTo()
 export class Pokedex {
-  constructor(store) {
-    this.store = store;
-    store.registerAction("GQLGrab", gqlGrabAction)
-  }
+  // constructor() {
+  //   this.fetch = dispatchify(gqlGrabAction)
+  // }
+
+  // fetchOnLoad = () => { 
+  //   console.log('fire?')
+  //   return this.fetch("LOAD FETCH") 
+  // }
 }
