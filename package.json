@@ -1,12 +1,12 @@
 {
-  "name": "devstart",
-  "description": "An Aurelia 2 client application.",
+  "name": "spppa",
+  "description": "A simple Pokedex SPA-style implement, using Aurelia 2 Alpha",
   "version": "0.2.0",
   "repository": {
     "type": "git",
-    "url": "???"
+    "url": "http:/github.com/sysRoot/devstart"
   },
-  "license": "UNLICENSED",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@aurelia/store-v1": "^2.0.0-alpha.25",
     "@urql/core": "^2.4.3",

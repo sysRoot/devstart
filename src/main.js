@@ -5,7 +5,9 @@ import { gqlGrabAction } from './store/actions';
 import { Pokedex } from './pokedex';
 
 const au = Aurelia
-  .register(StoreConfiguration.withInitialState(initialState), RouterConfiguration)
+  .register(StoreConfiguration.withInitialState(initialState), RouterConfiguration.customize({
+    useHref: false,
+  }))
   // To use HTML5 pushState routes, replace previous line with the following
   // customized router config.
   // .register(RouterConfiguration.customize({ useUrlFragmentHash: false }))
